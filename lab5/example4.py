@@ -8,5 +8,3 @@ else:
   while password != pasw:
     pasw = input("enter password: ")
   print("Welcome")
-
-  
