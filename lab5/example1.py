@@ -1,6 +1,6 @@
-num = int(input("enter a positive integer: "))
-while num < 0:
-  num = int(input("please enter a positive integer:"))  
+num = int(input("enter an integer: "))
+while num < 0 or num > 10:
+  num = int(input("please enter a valid integer:")) 
 
 i_times_num = 0
 for i in range(1,11):
