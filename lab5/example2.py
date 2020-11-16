@@ -8,5 +8,6 @@ for i in range(num_of_ints):
     even += 1
   else:
     odd += 1
+
 percent = even / num_of_ints * 100
 print(percent)
