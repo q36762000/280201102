@@ -1,7 +1,7 @@
-e_mail = input("enter an email adress: ")
-e_mail1 = e_mail.lower()
+e_mail = input("enter an email address: ")
+e_mail = e_mail.lower()
 
-a,b = e_mail1.split("@")
+a,b = e_mail.split("@")
 
 a = a.replace(".", "")
 e_mail = a+"@"+b
