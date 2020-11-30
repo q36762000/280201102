@@ -8,4 +8,3 @@ for i in range(n):
     list_value += str(value) + " " 
     value = 0
   print(list_value)
-  
