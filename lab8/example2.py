@@ -9,7 +9,7 @@ def is_prime(num):
     prime = False
   return prime
 def print_primes_between(num1, num2):
-  for k in range(num1, num2+1):
+  for k in range(num1, num2):
     if is_prime(k):
       print(k)
 def main():
