@@ -8,14 +8,13 @@ def is_prime(num):
   else:
     prime = False
   return prime
-def print_primes_between(num1,num2):
-  list = []
-  if num1 > num2:
-    a = num1
-    num1 = num2
-    num2 = a
+def print_primes_between(num1, num2):
   for k in range(num1, num2+1):
     if is_prime(k):
-      list.append(k)
-  return print(list)
-print_primes_between(5,17)
+      print(k)
+def main():
+  num1 = int(input("begin:"))
+  num2 = int(input("end:"))
+  print_primes_between(num1, num2)
+
+main()
