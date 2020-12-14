@@ -19,5 +19,10 @@ def binary_to_dec(a):
       a = a[:-1]
   return output
 
-print(dec_to_binary(8362))
-print(binary_to_dec(10000010101010))
+def main():
+  print(dec_to_binary(18))
+  print(dec_to_binary(10010))
+  print(binary_to_dec(10010))
+  print(binary_to_dec(18))
+
+main()
